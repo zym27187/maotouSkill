@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/logo.svg" alt="maotouSkill logo" width="240" />
+  <img src="./assets/logo.svg" alt="maotouSkill logo" width="120" />
 </p>
 
-<h1 align="center">maotouSkill</h1>
+<h1 align="center">猫 头</h1>
 
 <p align="center">
   短句、直给、带点欠打感。
