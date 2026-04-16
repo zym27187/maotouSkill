@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">maotouSkill pixel logo</title>
+  <desc id="desc">A pixel cat head with white face, black background, cyan and magenta chromatic accents.</desc>
+  <rect width="320" height="320" fill="#000000"/>
+
+  <g fill="#ffffff">
+    <rect x="64" y="32" width="64" height="32"/>
+    <rect x="192" y="32" width="64" height="32"/>
+    <rect x="64" y="64" width="80" height="16"/>
+    <rect x="176" y="64" width="96" height="16"/>
+    <rect x="64" y="80" width="96" height="16"/>
+    <rect x="160" y="80" width="112" height="16"/>
+    <rect x="48" y="96" width="224" height="144"/>
+    <rect x="64" y="240" width="192" height="16"/>
+    <rect x="80" y="256" width="160" height="16"/>
+  </g>
+
+  <g fill="#ff1493">
+    <rect x="32" y="64" width="16" height="128"/>
+    <rect x="48" y="32" width="16" height="80"/>
+    <rect x="176" y="64" width="16" height="16"/>
+    <rect x="160" y="80" width="16" height="16"/>
+    <rect x="144" y="96" width="16" height="16"/>
+    <rect x="192" y="32" width="16" height="16"/>
+    <rect x="48" y="240" width="16" height="16"/>
+    <rect x="64" y="256" width="16" height="16"/>
+  </g>
+
+  <g fill="#16e7d0">
+    <rect x="272" y="64" width="16" height="128"/>
+    <rect x="256" y="32" width="16" height="80"/>
+    <rect x="128" y="32" width="16" height="16"/>
+    <rect x="144" y="48" width="16" height="16"/>
+    <rect x="160" y="64" width="16" height="16"/>
+    <rect x="256" y="240" width="16" height="16"/>
+    <rect x="240" y="256" width="16" height="16"/>
+  </g>
+
+  <g fill="#16e7d0">
+    <rect x="96" y="160" width="48" height="40"/>
+  </g>
+  <g fill="#ff1493">
+    <rect x="192" y="160" width="48" height="40"/>
+  </g>
+  <g fill="#ffffff">
+    <rect x="128" y="168" width="16" height="16"/>
+    <rect x="224" y="168" width="16" height="16"/>
+  </g>
+
+  <g fill="#000000">
+    <rect x="160" y="200" width="16" height="16"/>
+    <rect x="144" y="216" width="16" height="16"/>
+    <rect x="176" y="216" width="16" height="16"/>
+    <rect x="128" y="232" width="16" height="16"/>
+    <rect x="144" y="232" width="16" height="16"/>
+    <rect x="176" y="232" width="16" height="16"/>
+    <rect x="192" y="232" width="16" height="16"/>
+  </g>
+</svg>
