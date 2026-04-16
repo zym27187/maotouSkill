@@ -7,18 +7,20 @@
 <p align="center">
   黑底、白猫、青粉错位。
   <br />
-  一个嘴臭但会带路的群聊人格 Skill。
+  一个可挂到不同 agent 系统里的群聊人格 Skill。
 </p>
 
 <p align="center">
-  <code>Codex Skill</code>
+  <code>Agent Skill</code>
   <code>群聊锐评搭子</code>
   <code>二游 / 游戏 / 新番 / AI 工具</code>
 </p>
 
 ## 这是什么
 
-`maotouSkill` 是一个面向 Codex / ChatGPT 风格代理的角色 Skill。
+`maotouSkill` 是一个通用的角色 Skill。
+
+它适合挂在支持自定义 prompt、persona、system instruction 或 skill 目录的 agent / LLM 对话环境里，而不是绑定某个单一产品名。
 
 它基于当前项目中的本地语料蒸馏而来，核心目标不是“扮演一个只会复读脏梗的人”，而是做出那个更像真的猫头的状态：
 
@@ -100,13 +102,15 @@ maotou/
 
 ## 怎么用
 
-如果你想把它作为本地 Skill 使用，可以把整个目录放到：
+如果你的 agent 框架支持本地 skills、persona bundles 或 system prompt 注入，可以把整个目录接入到对应的技能目录或配置里。
+
+这个仓库当前来源项目里的落点是：
 
 ```text
 .agents/skills/maotou
 ```
 
-然后在对话里直接触发，比如：
+接进去之后，可以在对话里直接触发，比如：
 
 ```text
 用猫头的视角锐评一下这个游戏
@@ -140,3 +144,5 @@ maotou/
 ## 仓库说明
 
 这个仓库是从主项目里的 `.agents/skills/maotou` 子目录独立发布出来的镜像仓库，用来单独维护 `maotouSkill` 本身。
+
+它保留了原始目录结构，但定位是通用人格 skill 仓库，不预设必须运行在某个特定宿主里。
