@@ -123,6 +123,20 @@ maotou/
 让浦西猫头锐评一下上海这物价
 ```
 
+### AstrBot
+
+如果你是挂到 AstrBot 里，建议不要把原版 `SKILL.md` 直接当常驻 skill 拼进去。
+
+更稳的做法见 [adapters/astrbot/README.md](adapters/astrbot/README.md)。
+
+这次 AstrBot 适配改成了“源码对齐的人格包”而不是简化版 skill：
+
+- 用宿主专用 [system-prompt.md](adapters/astrbot/system-prompt.md) 定人格骨架
+- 用 [begin-dialogs.json](adapters/astrbot/begin-dialogs.json) 钉住 few-shot 味道
+- 用 [persona.chat-only.create.json](adapters/astrbot/persona.chat-only.create.json) 或 [persona.assistive.create.json](adapters/astrbot/persona.assistive.create.json) 直接走 AstrBot Persona 接口
+
+原因也更具体：AstrBot 在运行时会把 Persona 的 `system_prompt`、`begin_dialogs`、`skills`、`tools` 分层注入；直接挂到 `skills` 杂烩层，和宿主的全局 skill / tool prompt 混在一起，味道会被明显冲淡。
+
 ## 一个很短的味道示例
 
 ```text
